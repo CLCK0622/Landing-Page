@@ -9,8 +9,8 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: 'clckkkkk | Links',
-  description: 'My personal links page',
+  title: "Links - CLCKKKKK's Site",
+  description: 'My personal page.',
 };
 
 export default function RootLayout({
