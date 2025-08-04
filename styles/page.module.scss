@@ -1,4 +1,3 @@
-// app/page.module.scss
 @use 'tokens';
 
 .main {
@@ -85,9 +84,6 @@
 
     .sidebar {
         grid-column: 1 / 2;
-        height: 100vh;
-        position: sticky;
-        top: 0;
         display: flex;
         padding: 6rem 0;
     }
