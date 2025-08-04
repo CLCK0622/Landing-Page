@@ -17,9 +17,6 @@ importers:
       i18next-http-backend:
         specifier: ^3.0.2
         version: 3.0.2
-      logos:
-        specifier: link:vercel/geist/logos
-        version: link:vercel/geist/logos
       next:
         specifier: 15.4.5
         version: 15.4.5(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(sass@1.89.2)
