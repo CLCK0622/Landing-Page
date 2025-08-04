@@ -85,6 +85,14 @@ export const linksData: LinkData[] = [
         icon: 'snapchat',
         color: '#FEF0C3'
     },
+    {
+        id: 8,
+        titleKey: 'link_email_title',
+        descriptionKey: 'link_email_desc',
+        url: 'mailto:zhongyi070622@gmail.com',
+        icon: 'email',
+        color: '#D4C4F9'
+    },
 ];
 
 export const designColors = [

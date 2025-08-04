@@ -10,5 +10,15 @@
   "link_twitter_title": "Twitter / X",
   "link_twitter_desc": "我的日常吐槽、技术短评和灵感闪现。",
   "link_unsplash_title": "Unsplash",
-  "link_unsplash_desc": "与我一起探索光影的艺术。"
+  "link_unsplash_desc": "与我一起探索光影的艺术。",
+  "link_instagram_title": "Instagram",
+  "link_instagram_desc": "我的日常碎片和美好瞬间。",
+  "link_linkedin_title": "LinkedIn",
+  "link_linkedin_desc": "我的专业背景、技能与就业经历。",
+  "link_mastodon_title": "Mastodon",
+  "link_mastodon_desc": "偶尔能碰见去中心化的另一个我。",
+  "link_snapchat_title": "Snapchat",
+  "link_snapchat_desc": "一些限时分享的好玩的瞬间。",
+  "link_email_title": "Email",
+  "link_email_desc": "如果需要联系，请给我发封邮件吧！"
 }

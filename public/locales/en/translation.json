@@ -10,5 +10,15 @@
   "link_twitter_title": "Twitter / X",
   "link_twitter_desc": "Daily ramblings, quick tech takes, and random sparks.",
   "link_unsplash_title": "Unsplash",
-  "link_unsplash_desc": "Exploring the art of light and shadow with me."
+  "link_unsplash_desc": "Exploring the art of light and shadow with me.",
+  "link_instagram_title": "Instagram",
+  "link_instagram_desc": "Daily fragments and beautiful moments, captured through my lens.",
+  "link_linkedin_title": "LinkedIn",
+  "link_linkedin_desc": "My professional background, skill set, and project experience.",
+  "link_mastodon_title": "Mastodon",
+  "link_mastodon_desc": "Deep conversations and free thoughts on the Fediverse.",
+  "link_snapchat_title": "Snapchat",
+  "link_snapchat_desc": "Fun, unedited, and ephemeral moments. Catch them while you can!",
+  "link_email_title": "Email",
+  "link_email_desc": "Get in touch by sending me an email!"
 }
