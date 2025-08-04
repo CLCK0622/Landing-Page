@@ -25,7 +25,7 @@ export const linksData: LinkData[] = [
         id: 1,
         titleKey: 'link_blog_title',
         descriptionKey: 'link_blog_desc',
-        url: 'https://blog.example.com',
+        url: 'https://blog.clckkkkk.site',
         icon: 'feather',
         color: '#FFDDC4'
     },
@@ -33,7 +33,7 @@ export const linksData: LinkData[] = [
         id: 2,
         titleKey: 'link_github_title',
         descriptionKey: 'link_github_desc',
-        url: 'https://github.com/yourusername',
+        url: 'https://github.com/CLCK0622',
         icon: 'github',
         color: '#E7E0E4'
     },
@@ -41,7 +41,7 @@ export const linksData: LinkData[] = [
         id: 3,
         titleKey: 'link_twitter_title',
         descriptionKey: 'link_twitter_desc',
-        url: 'https://twitter.com/yourusername',
+        url: 'https://x.com/CLCKKKKK',
         icon: 'twitter',
         color: '#C4EEF9'
     },
