@@ -1,5 +1,5 @@
 
-@import '@/styles/tokens';
+@use 'tokens';
 
 .switchContainer {
     display: flex;
@@ -14,8 +14,8 @@
     position: relative;
     width: 44px;
     height: 24px;
-    background-color: rgba($m3-on-surface, 0.1);
-    border-radius: $m3-border-radius-full;
+    background-color: rgba(tokens.$m3-on-surface, 0.1);
+    border-radius: tokens.$m3-border-radius-full;
 }
 
 .thumb {
@@ -24,7 +24,7 @@
     left: 2px;
     width: 20px;
     height: 20px;
-    background-color: $m3-primary-color;
+    background-color: tokens.$m3-primary-color;
     border-radius: 50%;
     transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
@@ -38,11 +38,11 @@
 .label {
     font-size: 0.75rem;
     font-weight: 500;
-    color: $m3-on-surface-variant;
+    color: tokens.$m3-on-surface-variant;
     padding: 0 0.25rem;
     transition: color 0.3s ease;
 
     &.active {
-        color: $m3-primary-color;
+        color: tokens.$m3-primary-color;
     }
 }

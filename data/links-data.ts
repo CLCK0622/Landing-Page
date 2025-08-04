@@ -88,14 +88,14 @@ export const linksData: LinkData[] = [
 ];
 
 export const designColors = [
-    '#FFDDC4', '#D3E3FD', '#C4EEF9', '#F8D7DA', // 来自卡片
-    '#D4C4F9', '#C4F9E9', // 添加一些额外的协调色
-    '#D2E7C4', // 柔松绿
-    '#FEF0C3', // 奶油黄
-    '#FFDBCB', // 蜜桃粉
-    '#FDD9D9', // 海棠红
-    '#BFC6FF', // 长春花蓝
-    '#A2E9E1', // 薄荷青
-    '#E7E0E4', // 远山灰
-    '#FDE2FF', // 丁香紫
+    '#FFDDC4', '#D3E3FD', '#C4EEF9', '#F8D7DA',
+    '#D4C4F9', '#C4F9E9',
+    '#D2E7C4',
+    '#FEF0C3',
+    '#FFDBCB',
+    '#FDD9D9',
+    '#BFC6FF',
+    '#A2E9E1',
+    '#E7E0E4',
+    '#FDE2FF',
 ];

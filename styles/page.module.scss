@@ -1,6 +1,5 @@
 
-@import '@/styles/tokens';
-
+@use 'tokens';
 
 .main {
     position: relative;
@@ -8,7 +7,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: $spacing-unit * 4 $spacing-unit * 2;
+    padding: tokens.$spacing-unit * 4 tokens.$spacing-unit * 2;
     min-height: 100vh;
 }
 
@@ -23,15 +22,15 @@
 .linksGrid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: $spacing-unit * 2.5;
+    gap: tokens.$spacing-unit * 2.5;
     width: 100%;
-    margin-top: $spacing-unit * 4;
+    margin-top: tokens.$spacing-unit * 4;
 }
 
 @media (max-width: 600px) {
     .linksGrid {
         grid-template-columns: 1fr;
-        gap: $spacing-unit * 2;
+        gap: tokens.$spacing-unit * 2;
     }
 }
 
@@ -45,14 +44,14 @@
 }
 
 .footer {
-    margin-top: $spacing-unit * 6;
-    padding: $spacing-unit * 2;
+    margin-top: tokens.$spacing-unit * 6;
+    padding: tokens.$spacing-unit * 2;
     color: var(--m3-on-surface-variant);
     font-size: 0.875rem;
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: $spacing-unit;
+    gap: tokens.$spacing-unit;
 }
 
 .vercelLink {
