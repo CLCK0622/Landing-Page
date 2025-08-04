@@ -1,0 +1,48 @@
+
+@import '@/styles/tokens';
+
+.switchContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.25rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.track {
+    position: relative;
+    width: 44px;
+    height: 24px;
+    background-color: rgba($m3-on-surface, 0.1);
+    border-radius: $m3-border-radius-full;
+}
+
+.thumb {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 20px;
+    height: 20px;
+    background-color: $m3-primary-color;
+    border-radius: 50%;
+    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.isEnglish {
+    .thumb {
+        transform: translateX(20px);
+    }
+}
+
+.label {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: $m3-on-surface-variant;
+    padding: 0 0.25rem;
+    transition: color 0.3s ease;
+
+    &.active {
+        color: $m3-primary-color;
+    }
+}

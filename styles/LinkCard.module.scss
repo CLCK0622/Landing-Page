@@ -1,0 +1,78 @@
+
+@import '@/styles/tokens';
+
+.atroposCard {
+    border-radius: $m3-border-radius-extra-large;
+    transition: transform 0.3s ease;
+
+    aspect-ratio: 1 / 1;
+
+    :global(.atropos-shadow) {
+        background: rgba(0, 0, 0, 0.5);
+        transition: opacity 0.3s ease;
+    }
+}
+
+.cardContentWrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: $m3-border-radius-extra-large;
+    overflow: hidden;
+    background-color: var(--card-bg-color);
+}
+
+.linkCard {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+    z-index: 2;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    color: $m3-on-surface;
+
+    padding: $spacing-unit * 3.5;
+}
+
+.icon {
+    color: $m3-on-surface-variant;
+    opacity: 0.8;
+    font-size: 1.75rem;
+
+    margin-bottom: $spacing-unit * 2;
+}
+
+.title {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 0.875rem;
+    margin-top: $spacing-unit * 0.5;
+    color: $m3-on-surface-variant;
+    line-height: 1.4;
+    opacity: 0.9;
+}
+
+@media (max-width: 600px) {
+    .atroposCard {
+        aspect-ratio: auto;
+    }
+    .linkCard {
+        aspect-ratio: auto;
+        min-height: 120px;
+
+        .content {
+            justify-content: center;
+        }
+    }
+}
