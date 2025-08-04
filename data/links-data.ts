@@ -86,7 +86,7 @@ export const linksData: LinkData[] = [
         color: '#FEF0C3'
     },
     {
-        id: 8,
+        id: 9,
         titleKey: 'link_email_title',
         descriptionKey: 'link_email_desc',
         url: 'mailto:zhongyi070622@gmail.com',
