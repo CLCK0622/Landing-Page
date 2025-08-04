@@ -4,28 +4,37 @@
 .profileCard {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: tokens.$spacing-unit * 3;
+    align-items: flex-start;
+    text-align: left;
+    padding: tokens.$spacing-unit * 3 0;
     width: 100%;
 }
 
 .avatar {
+    width: 120px;
+    height: 120px;
     border-radius: tokens.$m3-border-radius-full;
-    border: 4px solid tokens.$m3-background;
+    border: 4px solid var(--m3-background, #fef7ff);
     box-shadow: tokens.$m3-elevation-2;
-    margin-bottom: tokens.$spacing-unit * 2;
+    margin-bottom: tokens.$spacing-unit * 3;
 }
 
 .name {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: 700;
-    color: tokens.$m3-on-surface;
+    color: var(--m3-on-surface, #1d1b20);
 }
 
 .bio {
     font-size: 1rem;
     margin-top: tokens.$spacing-unit;
-    color: tokens.$m3-on-surface-variant;
+    color: var(--m3-on-surface-variant, #49454f);
     max-width: 400px;
+}
+
+@media (min-width: 901px) {
+    .avatar {
+        width: 150px;
+        height: 150px;
+    }
 }
